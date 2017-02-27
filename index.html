@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Justin Thomas</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Bootstrap core CSS -->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css">
+		
+        <!-- Custom styles for this template -->
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+	
+    <body data-spy="scroll" data-target="#spy-scroll-id" data-offset="50">
+        <nav class="navbar navbar-default navbar-fixed-top gradient">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#spy-scroll-id" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#home">(Justin Thomas)</a>
+				</div>
+				<div id="spy-scroll-id" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="nav-item active"><a href="#home">Home</a></li>
+						<li class="nav-item"><a href="#about">About</a></li>
+						<li class="nav-item"><a href="#portfolio">Portfolio</a></li>
+						<li class="nav-item"><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+        <div class="container content text-center" id="home">
+			<h1 id="softwareDevelopment" class="toggleOpacity">(Software Development)</h1>
+			<h2 id="together"><big>Together We Create...</big></h2>
+        </div>
+        
+        <div class="container content" id="about">
+			<div class="panel">
+				<div class="row">
+					<div class="col-md-4">
+						<img src="img/profilepic1.jpg" class="image-responsive img-thumbnail img-rounded" alt="Profile Picture of Justin Thomas"> 
+					</div>
+					<div class="col-md-8">
+						<p>
+							I've always been fascinated with web and software development from an early age however I became more serious when 
+							I started realizing the significance in being able to automate tasks through programming in the workplace.
+						</p>  
+						<ul>
+							<li>In 2010 I started teaching myself how to program in VBA with Microsoft Office's Excel, PowerPoint and Word Applications as well as writing queries in SQL.</li>
+							<li>In 2014, while working for Lockheed Martin, I developed a process that saved them roughly $250,000 that year by automating data entry for their MH-60M Blackhawk project.</li>
+							<li>In 2015 I obtained my Bachelor of Science degrees in Computer Science and Mathematics and transitioned my career full time as a software/web developer for Toyota.</li>
+							<li>I did 9 years as a soldier in the Unites States Army Reserve and two combat tours as a Technical Engineer.</li>
+							<li>I currently work as a software/web developer for Toyota for their Powertrain Engineering Department in Georgetown, Kentucky.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+        </div>
+        
+        <div class="container content white-border" id="portfolio">
+			<div id="portfolioContent">
+				<div class="row">
+					<!-- Drop down list of all portfolios -->
+					<label for="ddl_portfolio">Select a portfolio </label>
+					<select class="selectpicker form-control" id="ddl_portfolio">
+					</select>
+					<br>
+					
+					<div id="div_transition">					
+						<img id="portfolioImage" class="img-responsive img-thumbnail" src="" alt="">
+						<p id="portfolioParagraph"></p>
+					</div>
+					
+				</div>
+			</div>	
+        </div>
+
+        <div class="container content" id="contact">
+			<div class="contactContent">
+				<div class="row">
+					<label class="validation"></label>
+					<form class="white-border">
+						<div class="form-group">
+							<label for="input_email" class="comments-label"><span class="required">*</span> Email address:</label>
+							<input type="email" class="form-control" id="input_email">
+						</div>
+						<div class="form-group">
+							<label for="comment" class="comments-label"><span class="required">*</span> Comment:</label>
+							<textarea class="form-control" rows="5" id="comment"></textarea>
+						</div>
+						
+						<input id="btn_submit" type="button" class="btn btn-primary" Value="Submit" />
+					</form>
+				</div>
+				<div class="row">
+					<div class="social-media white-border">
+						<h1>Social Media</h1>
+						<div class="row white-border">
+							<a target="_blank" href="https://github.com/yessdrillsgt" class="col-xs-4">
+								<img src="img/glyphicons-social-22-github@3x.png" alt="GitHub Page" class="img-responsive center-block">
+							</a>
+							<a target="_blank" href="https://www.linkedin.com/in/justin-thomas-624a8149" class="col-xs-4">
+								<img src="img/glyphicons-social-18-linked-in@3x.png" alt="Linked-In Page" class="img-responsive center-block">
+							</a>
+							<a target="_blank" href="https://www.facebook.com/SergeantSawDustsNotepad/" class="col-xs-4">
+								<img src="img/glyphicons-social-31-facebook@3x.png" alt="Facebook Page" class="img-responsive center-block">
+							</a>
+						</div>
+					</div>
+				</div>		
+			</div>	
+        </div>
+		
+
+		
+        <!-- JQuery Plugin -->
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	
+		<!-- Bootstrap JS Plugin -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/bootstrap-select.min.js"></script>
+		
+        <!-- Custom JS -->
+        <script src="js/custom.js"></script>
+    </body>
+</html>
