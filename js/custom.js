@@ -7,7 +7,7 @@ $(document).ready(function(){
 			imageSrc: 		"img/randomQuoteGenerator.png",
 			imageAlt:		"View of stars in the forest",
 			description:	"This utilizes a api from another site to randomly generate a quote.  You can share to facebook or twitter.",
-			siteURL:		"https://jdt-random-quote-generator.herokuapp.com/"
+			siteURL:		"http://jdt-random-quote-generator.herokuapp.com/"
 		},
 		{
 			title: 			"Steve Jobs Tribute Page",
