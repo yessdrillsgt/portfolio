@@ -37,7 +37,6 @@ body {
 }
 #home {
 	background-image: url("../img/home.jpg");
-	background-attachment: fixed;
 	background-color: rgba(0,0,0,0);
 }
 #home > h1 {
@@ -53,18 +52,15 @@ body {
 }
 #about {
     background-image: url("../img/about.jpg");
-	background-attachment: fixed;
 	background-color: rgba(0,0,0,0);
 	font-family: System;
 }
 #portfolio {
     background-image: url("../img/portfolio.jpg");
-	background-attachment: fixed;
 	background-color: rgba(0,0,0,0);
 }
 #contact {
     background-image: url("../img/contact.jpg");
-	background-attachment: fixed;
 	background-color: rgba(0,0,0,0);
 }
 #div_transition {
@@ -187,6 +183,18 @@ body {
 	.navbar-brand {
 		font-size: 2vmin;
 	}
+	#home {
+		background-attachment: fixed;
+	}
+	#about {
+		background-attachment: fixed;
+	}
+	#portfolio {
+		background-attachment: fixed;
+	}
+	#contact {
+		background-attachment: fixed;
+	}
 	#home > h1 {
 		font-size: 4vmin;
 		margin-top: 25%;
@@ -208,6 +216,18 @@ body {
 	.navbar-brand {
 		font-size: 3vmin;
 	}
+	#home {
+		background-attachment: fixed;
+	}
+	#about {
+		background-attachment: fixed;
+	}
+	#portfolio {
+		background-attachment: fixed;
+	}
+	#contact {
+		background-attachment: fixed;
+	}
 	#home > h1 {
 		font-size: 6vmin;
 		margin-top: 10%;
@@ -228,6 +248,18 @@ body {
 @media only screen and (min-width : 1300px) {
 	.navbar-brand {
 		font-size: 3vmin;
+	}
+	#home {
+		background-attachment: fixed;
+	}
+	#about {
+		background-attachment: fixed;
+	}
+	#portfolio {
+		background-attachment: fixed;
+	}
+	#contact {
+		background-attachment: fixed;
 	}
 	#home > h1 {
 		font-size: 6vmin;

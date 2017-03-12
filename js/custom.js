@@ -3,6 +3,13 @@ $(document).ready(function(){
 	var b = false;
 	var portfolio = [
 		{
+			title: 			"Random Quote Generator",
+			imageSrc: 		"img/randomQuoteGenerator.png",
+			imageAlt:		"View of stars in the forest",
+			description:	"This utilizes a api from another site to randomly generate a quote.  You can share to facebook or twitter.",
+			siteURL:		"https://jdt-random-quote-generator.herokuapp.com/"
+		},
+		{
 			title: 			"Steve Jobs Tribute Page",
 			imageSrc: 		"img/steveJobs.jpg",
 			imageAlt:		"Steve Jobs profile pic",
