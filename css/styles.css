@@ -92,7 +92,7 @@ body {
 	margin-top: 10%;
 	text-color: white;
 }
-.comments-label {
+.contact-label {
 	color: white;
 	font-family: System;
 }
@@ -100,6 +100,10 @@ body {
 	text-align: center;
 	font-family: System;
 	color: white;
+}
+.validation {
+	color: white;
+	font-family: System;
 }
 
 

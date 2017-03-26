@@ -3,6 +3,13 @@ $(document).ready(function(){
 	var b = false;
 	var portfolio = [
 		{
+			title: 			"Local Weather App",
+			imageSrc: 		"img/weatherApp.png",
+			imageAlt:		"View of stars in the forest",
+			description:	"Displays the current local weather information.  Note:  You have to load unsafe scripts since I'm utilizing a free version of the api.",
+			siteURL:		"https://jdt-weatherapp.herokuapp.com/"
+		},
+		{
 			title: 			"Random Quote Generator",
 			imageSrc: 		"img/randomQuoteGenerator.png",
 			imageAlt:		"View of stars in the forest",
