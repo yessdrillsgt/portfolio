@@ -32,7 +32,6 @@ $(document).ready(function(){
 		}
 	]
 	
-	
 	// Updates the portfolio title, image, description and link
 	$('#ddl_portfolio').on('change', function(){
 		var indexVal = $(this).val();
@@ -44,19 +43,16 @@ $(document).ready(function(){
 			.prop('src', portfolio[indexVal].imageSrc)
 			.prop('alt', portfolio[indexVal].imageAlt);
 		
-		if (portfolio[indexVal].siteURL === ''){
-			link = ' Site is still under construction.';
-		} else {
-			link = ' Click <a target="_blank" href="' + portfolio[indexVal].siteURL + '"> here </a> to visit the site.';
-		}
+		link = ' Click <a target="_blank" href="' + portfolio[indexVal].siteURL + '"> here </a> to visit the site.';
 		
 		$('#portfolioParagraph').text(portfolio[indexVal].description).append(link);
 		
 		$('#div_transition').fadeIn(2500); // Fades the div back in
 	});
 	
-	
+
 	PopulateDropDown(portfolio);
+	PreloadImages(portfolio);
 	
 	setInterval(AnimateOpacity, 3000);
 	TransitionHeaders();
@@ -82,7 +78,25 @@ $(document).ready(function(){
 		size: 5,
 		liveSearch: true
 	});
+	
+	//Adds smooth scrolling to all links in the spy-scroll-id div
+	$("#spy-scroll-id a").on('click', function(event) {
+
+	  if (this.hash !== "") {
+		event.preventDefault();
+		var hash = this.hash;
+
+		$('html, body').animate({
+		  scrollTop: $(hash).offset().top
+		}, 1200, function(){
+
+		  window.location.hash = hash;
+		});
+	  }
+	});
+	
 });
+
 
 // Appends a option tag to the drop down list (select tag)
 function PopulateDropDown(portfolio){
@@ -107,21 +121,17 @@ function TransitionHeaders(){
 	};
 };
 
-//Adds smooth scrolling to all links in the spy-scroll-id div
-$("#spy-scroll-id a").on('click', function(event) {
+// Loop through all elements in portfolio and force image to preload
+function PreloadImages(portfolio){
+	
+	for (var i = 0; i < portfolio.length; i++){
+		var x = new Image();
+		x.src = portfolio[i].imageSrc;
+		x.load;
+	}
+};
 
-  if (this.hash !== "") {
-    event.preventDefault();
-    var hash = this.hash;
 
-    $('html, body').animate({
-      scrollTop: $(hash).offset().top
-    }, 1200, function(){
-
-      window.location.hash = hash;
-    });
-  }
-});
 
 
 
