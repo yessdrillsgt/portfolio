@@ -81,7 +81,7 @@ $(document).ready(function(){
 	};
 	
 	$('.selectpicker').selectpicker({ 
-		style: 'btn-default',
+		style: 'btn-primary',
 		size: 5,
 		liveSearch: true
 	});
