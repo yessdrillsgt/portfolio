@@ -3,6 +3,13 @@ $(document).ready(function(){
 	var b = false;
 	var portfolio = [
 		{
+			title: 			"Wikipedia Viewer App",
+			imageSrc: 		"img/wikiViewer.png",
+			imageAlt:		"View of starry sky at night",
+			description:	"Project for FreeCodeCamp.com.  Utilizes MediaWiki API to search wikipedia pages based on user input.",
+			siteURL:		"https://jdt-wikipedia-viewer.herokuapp.com/"
+		},
+		{
 			title: 			"Local Weather App",
 			imageSrc: 		"img/weatherApp.png",
 			imageAlt:		"View of stars in the forest",
@@ -22,34 +29,6 @@ $(document).ready(function(){
 			imageAlt:		"Steve Jobs profile pic",
 			description:	"This is a simple tribute page I did on Steve Jobs for freeCodeCamp.com.",
 			siteURL:		"http://codepen.io/yessdrillsgt/full/GrOLzW/"
-		},
-		{
-			title: 			"Health Tracker",
-			imageSrc: 		"img/healthTracker.jpg",
-			imageAlt:		"Fit woman on top of mountain",
-			description:	"This web based application allows a user to track their body weight, workouts and blood pressure all while securely logging in through Facebook's Login API.",
-			siteURL:		""
-		},
-		{
-			title: 			"Project Board Foot Calculator",
-			imageSrc: 		"img/woodworking.jpg",
-			imageAlt:		"Workbench and Plane",
-			description:	"This web based application allows a user to calculate the amount of board feet one would need to build their woodworking project.",
-			siteURL:		""
-		},
-		{
-			title: 			"Math Tutorials",
-			imageSrc: 		"img/math.jpg",
-			imageAlt:		"Calculator and desk",
-			description:	"This web based application allows provides hands on tutorials in the areas of mathematics and science.",
-			siteURL:		""
-		},
-		{
-			title: 			"Games",
-			imageSrc: 		"img/games.jpg",
-			imageAlt:		"Gaming controller",
-			description:	"Sit back and relax with these fun games.",
-			siteURL:		""
 		}
 	]
 	
