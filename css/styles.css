@@ -28,12 +28,8 @@
 }
 .navbar {
 	background-size: 100vw;
-    background-color: #c9c9c9;
+    background-color: rgb(240, 240, 240);
 	box-shadow: 0px 1px 10px 1px;
-    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%,color-stop(0, rgb(206, 206, 206)),color-stop(0.273, rgb(199, 199, 199)),color-stop(0.756, rgb(189, 189, 189)),color-stop(1, rgb(234, 234, 234)));
-    background-image: -webkit-repeating-linear-gradient(top,rgb(206, 206, 206) 0%,rgb(199, 199, 199) 27.3%,rgb(189, 189, 189) 75.6%,rgb(234, 234, 234) 100%);
-    background-image: repeating-linear-gradient(to bottom,rgb(206, 206, 206) 0%,rgb(199, 199, 199) 27.3%,rgb(189, 189, 189) 75.6%,rgb(234, 234, 234) 100%);
-    background-image: -ms-repeating-linear-gradient(top,rgb(206, 206, 206) 0%,rgb(199, 199, 199) 27.3%,rgb(189, 189, 189) 75.6%,rgb(234, 234, 234) 100%);
 }
 body {
 	background-repeat: no-repeat;
@@ -85,8 +81,6 @@ body {
 }
 #portfolioContent {
 	opacity: 0.9;
-	width: 60%;
-	margin: auto;
 }
 .contactContent {
 	opacity: 0.9;
@@ -129,7 +123,9 @@ body {
 		font-size: 3vmin;
 	}
 	#portfolioContent {
-		margin-top: 10%;
+		width: 80%;
+		margin: auto;
+		margin-top: 20%;
 	}
 }
 
@@ -142,7 +138,9 @@ body {
 		font-size: 5vmin;
 	}
 	#portfolioContent {
-		margin-top: 10%;
+		width: 80%;
+		margin: auto;
+		margin-top: 20%;
 	}
 }
 /* Extra-Large Mobile Devices */
@@ -161,7 +159,9 @@ body {
 		font-size: 5vmin;
 	}
 	#portfolioContent {
-		margin-top: 10%;
+		width: 80%;
+		margin: auto;
+		margin-top: 20%;
 	}
 }
 
@@ -182,7 +182,9 @@ body {
 		font-size: 3vmin;
 	}
 	#portfolioContent {
-		margin-top: 10%;
+		width: 80%;
+		margin: auto;
+		margin-top: 20%;
 	}
 }
 /* Medium Devices, Desktops - No minimum height */
@@ -214,7 +216,9 @@ body {
 		font-size: 2vmin;
 	}
 	#portfolioContent {
-		margin-top: 10%;
+		width: 50%;
+		margin: auto;
+		margin-top: 20%;
 	}
 }
 
@@ -244,10 +248,12 @@ body {
 	}
 	#aboutContent {
 		margin-top: 15%;
-		font-size: 2.5vmin;
+		font-size: 2.25vmin;
 	}
 	#portfolioContent {
-		margin-top: 5%;
+		width: 50%;
+		margin: auto;
+		margin-top: 10%;
 	}
 }
 
@@ -277,9 +283,11 @@ body {
 	}
 	#aboutContent {
 		margin-top: 15%;
-		font-size: 2.5vmin;
+		font-size: 2.25vmin;
 	}
 	#portfolioContent {
-		margin-top: 5%;
+		width: 50%;
+		margin: auto;
+		margin-top: 10%;
 	}
 }

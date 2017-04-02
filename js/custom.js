@@ -50,6 +50,13 @@ $(document).ready(function(){
 		$('#div_transition').fadeIn(2500); // Fades the div back in
 	});
 	
+	// When user clicks anywhere on this element it opens a new tab against the appropriate project url
+	$('#div_transition').on('click', function(){
+		var indexVal = $('#ddl_portfolio').val();
+		
+		window.open(portfolio[indexVal].siteURL);
+	});
+	
 
 	PopulateDropDown(portfolio);
 	PreloadImages(portfolio);
