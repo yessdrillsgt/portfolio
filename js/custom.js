@@ -3,6 +3,13 @@ $(document).ready(function(){
 	var b = false;
 	var portfolio = [
 		{
+			title: 			"Twitch API Project",
+			imageSrc: 		"img/twitchAPI.png",
+			imageAlt:		"Twitch API Project screenshot",
+			description:	"Project for FreeCodeCamp.com.  Utilizes Twitch API to determine if a set number of twitch users are offline/online on page load.",
+			siteURL:		"https://jdt-twitch-api.herokuapp.com/"
+		},
+		{
 			title: 			"Wikipedia Viewer App",
 			imageSrc: 		"img/wikiViewer.png",
 			imageAlt:		"View of starry sky at night",
