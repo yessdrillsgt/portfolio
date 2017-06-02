@@ -3,6 +3,13 @@ $(document).ready(function(){
 	var b = false;
 	var portfolio = [
 		{
+			title: 			"Javascript Calculator",
+			imageSrc: 		"img/calculator.png",
+			imageAlt:		"Calculator screenshot",
+			description:	"Project for FreeCodeCamp.com.  Pure Javascript calculator.",
+			siteURL:		"https://jdt-js-calculator.herokuapp.com/"
+		},
+		{
 			title: 			"Twitch API Project",
 			imageSrc: 		"img/twitchAPI.png",
 			imageAlt:		"Twitch API Project screenshot",
