@@ -3,6 +3,13 @@ $(document).ready(function(){
 	var b = false;
 	var portfolio = [
 		{
+			title: 			"Pomodoro Clock",
+			imageSrc: 		"img/pomodoroClock.png",
+			imageAlt:		"Project for pomodoro clock screenshot",
+			description:	"Project for FreeCodeCamp.com.  Timer used for Pomodoro work style.",
+			siteURL:		"https://jdt-pomodoro-clock.herokuapp.com/"
+		},
+		{
 			title: 			"Javascript Calculator",
 			imageSrc: 		"img/calculator.png",
 			imageAlt:		"Calculator screenshot",
