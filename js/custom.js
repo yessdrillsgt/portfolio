@@ -3,6 +3,13 @@ $(document).ready(function(){
 	var b = false;
 	var portfolio = [
 		{
+			title: 			"Tic Tac Toe",
+			imageSrc: 		"img/ticTacToe.png",
+			imageAlt:		"Project for Tic Tac Toe screenshot",
+			description:	"Project for FreeCodeCamp.com.  Play Tic Tac Toe on easy for a chance to win or try your luck against the unbeatable AI on hard mode.  AI utilizes minimax algorithm.",
+			siteURL:		"https://jdt-tic-tac-toe.herokuapp.com/"
+		},
+		{
 			title: 			"Pomodoro Clock",
 			imageSrc: 		"img/pomodoroClock.png",
 			imageAlt:		"Project for pomodoro clock screenshot",
