@@ -3,6 +3,13 @@ $(document).ready(function(){
 	var b = false;
 	var portfolio = [
 		{
+			title: 			"Simon",
+			imageSrc: 		"img/simon.png",
+			imageAlt:		"Project for Simon screenshot",
+			description:	"Project for FreeCodeCamp.com.  Test your memory against this classic Simon game created primarily in HTML5, CSS and Javascript.",
+			siteURL:		"https://jdt-simon.herokuapp.com/"
+		},
+		{
 			title: 			"Tic Tac Toe",
 			imageSrc: 		"img/ticTacToe.png",
 			imageAlt:		"Project for Tic Tac Toe screenshot",
