@@ -137,6 +137,11 @@ $(document).ready(function(){
 	  }
 	});
 	
+	$('#btn_submit').on('click', function(e){
+		e.preventDefault();
+		alert('Sorry.  This is still on my to do list.  Site is still under construction.');
+	});
+	
 });
 
 
