@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Justin Thomas</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Bootstrap core CSS -->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css">
+		
+        <!-- Custom styles for this template -->
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+	
+    <body data-spy="scroll" data-target="#spy-scroll-id" data-offset="50">
+        <nav class="navbar navbar-default navbar-fixed-top gradient">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#spy-scroll-id" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#home">Justin Thomas</a>
+				</div>
+				<div id="spy-scroll-id" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="nav-item active"><a href="#home">Home</a></li>
+						<li class="nav-item"><a href="#about">About</a></li>
+						<li class="nav-item"><a href="#portfolio">Portfolio</a></li>
+						<li class="nav-item"><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+        <div class="container content text-center" id="home">
+			<h1 id="softwareDevelopment" class="toggleOpacity">Software Development</h1>
+			<h2 id="together"><big>Together We Create...</big></h2>
+        </div>
+        
+        <div class="container content" id="about">
+			<div id="aboutContent">
+				<div class="row" id="favoriteQuote">
+						<img src="img/profilepic2.png" id="profilePic" class="image-responsive img-circle" alt="Profile Picture of Justin Thomas">
+						<i><q>...because the ones who are crazy enough to be believe they can change the world, are the ones that do.</q></i> 
+						Steve Jobs
+				</div>
+				<div class="row">
+					<h2 class="aboutHeader"><i>I love to learn.</i></h2>
+					<p>
+						As a software engineer my profession is constantly changing and evolving and so I feel a key aspect at being the best I can be is to keep up to date with latest programming techniques, softwares, methodologies, ect.  I utilize many free resources such as  khan academy, codeacademy, freecodecamp.com, lynda.com, w3schools.com, ect. and I've donated to many of these to help support their cause.
+					</p>
+					<h2 class="aboutHeader"><i>I love to teach.</i></h2>
+					<p>
+						In late 2007 and early 2008 I worked as a math and physics tutor at the Bluegrass Community and Technical College in Lexington, KY.  To know something is one thing but to be able to explain it in a way that makes sense to someone that is struggling with those concepts is an artform in itself.  I truly admire teachers and professors for this unique skillset.  This experience is what drove me to my senior thesis while pursuing a Bachelors of Science in Computer Science and Mathematics.  I created a web application that solved math, physics, statics and engineering related problems step by step to help users learn and its something I'd like to improve on in the near future.
+					</p>
+					<h2 class="aboutHeader"><i>I love to be creative.</i></h2>
+					<p>
+						I do that in many different areas.  Programming and ui development definitely allows me to express myself virtually but I also enjoy woodworking and art.  I have a facebook woodworking page that I've maintained off and on since 2010 and a programming facebook page I started around 2011.
+					</p>
+					<h2 class="aboutHeader"><i>I love my country.</i></h2>
+					<p>
+						In August 2004 I enlisted with the United States Army reserve as a 21T (Technical Engineer).  After nine years, two deployments and several ATs I was honorably discharged.  I have gotten to see and do things that most could not imagine.  It has allowed me to be truly grateful for what we have in America as well as giving me the ability to be truly cognizant of some of the struggles many others around the world face every day.  I have had the privilege to Survey and Design everything from schools and soccer fields in El Salvador to helicopter landing pads in Iraq.
+					</p>
+					<h2 class="aboutHeader"><i>I love what I do.</i></h2>
+					<p>
+						I currently work as a software/web developer for Toyota for their Powertrain Engineering Department in Georgetown, Kentucky.
+					</p>
+				</div>
+			</div>
+        </div>
+        
+        <div class="container content white-border" id="portfolio">
+			<div id="portfolioContent">
+				<div class="row">
+					<!-- Drop down list of all projects within the portfolio -->
+					<label for="ddl_portfolio">Select a project from my portfolio: </label>
+					<select class="selectpicker form-control" id="ddl_portfolio"></select>
+					<br>
+					
+					<div id="div_transition">					
+						<img id="portfolioImage" class="img-responsive img-thumbnail" src="" alt="">
+						<p id="portfolioParagraph"></p>
+					</div>
+					
+				</div>
+			</div>	
+        </div>
+
+        <div class="container content" id="contact">
+			<div class="contactContent">
+				<div class="row">
+					<label class="validation"></label>
+					<form class="white-border">
+						<div class="form-group">
+							<label for="input_email" class="contact-label"><span class="required">*</span> Email address:</label>
+							<input type="email" class="form-control" id="input_email">
+							<!-- <span id="validation_email" class="validation">Please enter a valid email address.</span> -->
+						</div>
+						<div class="form-group">
+							<label for="input_comment" class="contact-label"><span class="required">*</span> Comment:</label>
+							<textarea class="form-control" rows="5" id="input_comment"></textarea>
+							<!-- <span id="validation_comment" class="validation">Please enter a valid comment.</span> -->
+						</div>
+						<input id="btn_submit" type="button" class="btn btn-primary" Value="Submit" />
+					</form>
+				</div>
+				<div class="row">
+					<div class="social-media white-border">
+						<div class="row white-border">
+							<a target="_blank" href="https://github.com/yessdrillsgt" class="col-xs-3">
+								<img src="img/glyphicons-social-22-github@3x.png" alt="GitHub Page" class="img-responsive center-block">
+							</a>
+							<a target="_blank" href="https://www.linkedin.com/in/justin-thomas-624a8149" class="col-xs-3">
+								<img src="img/glyphicons-social-18-linked-in@3x.png" alt="Linked-In Page" class="img-responsive center-block">
+							</a>
+							<a target="_blank" href="https://www.facebook.com/SergeantSawDustsNotepad/" class="col-xs-3">
+								<img src="img/glyphicons-social-31-facebook@3x.png" alt="Facebook Page" class="img-responsive center-block">
+							</a>
+							<a target="_blank" href="https://www.freecodecamp.org/yessdrillsgt" class="col-xs-3">
+								<img src="img/freeCodeCampLogo.png" alt="Free Code Camp" class="img-responsive center-block">
+							</a>
+						</div>
+					</div>
+				</div>		
+			</div>	
+        </div>
+		
+
+		
+        <!-- JQuery Plugin -->
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	
+		<!-- Bootstrap JS Plugin -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/bootstrap-select.min.js"></script>
+		
+        <!-- Custom JS -->
+        <script src="js/custom.js"></script>
+    </body>
+</html>
