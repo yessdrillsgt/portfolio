@@ -20,6 +20,7 @@
 }
 .navbar-brand {
 	font-family: LionKing; // This was RioGrande
+	color: rgb(240, 240, 240);
 }
 .nav-item {
 	font-family: ConeriaScript;
@@ -69,20 +70,28 @@ body {
 #aboutContent {
 	width: 95%;
 	margin: auto;
-	font-weight: bold;
-	background-color: rgba(255, 255, 255, 0.8);
-	border-radius: 2em;
+}
+.asdf {
+	background: linear-gradient(to right, rgb(117, 170, 255), rgb(155, 255, 250));
+	border-radius: 1em;
+	font-color: white;
 	box-shadow: 0 0 2px rgb(40, 40, 40), 0 0 20px rgb(40, 40, 40);
 }
-#aboutContent > div {
-	margin: auto;
-	text-align: left;
-	max-width: 90%;
+.asdf > h2 {
+	margin-top: 0;
+	margin-left: 1em;
+	color: white;
 }
-#profilePic {
-	float: left;
-	max-width: 50%;
+.asdf-content {
+	font-color: black;
+	background-color: white;
+	
 }
+.asdf-content > p {
+	margin: 1em;
+}
+
+
 .white-border {
 	text-shadow: 0 0 30px white;
 	font-weight: bold;
@@ -133,12 +142,11 @@ body {
 		margin-top: 20.0%;
 		font-size: 2.0vmin;
 	}
-	#favoriteQuote {
-		margin-top: 0.6em;
-		font-size: 2.0em;
-	}
 	.aboutHeader {
 		font-size: 2.0em;
+	}
+	.asdf-content > p {
+		font-size: 1.5em;
 	}
 	#portfolioContent {
 		width: 80%;
@@ -160,10 +168,6 @@ body {
 	#aboutContent {
 		margin-top: 20.0%;
 		font-size: 2.0vmin;
-	}
-	#favoriteQuote {
-		margin-top: 0.5em;
-		font-size: 2em;
 	}
 	.aboutHeader {
 		font-size: 2.5em;
@@ -203,9 +207,8 @@ body {
 		margin-top: 10.0%;
 		font-size: 1.3vmin;
 	}
-	#favoriteQuote {
-		margin-top: 0.5em;
-		font-size: 2em;
+	.asdf-content > p {
+		font-size: 1.5em;
 	}
 	#portfolioContent {
 		width: 80%;
@@ -240,10 +243,6 @@ body {
 	#aboutContent {
 		margin-top: 15.0%;
 		font-size: 1.5vmin;
-	}
-	#favoriteQuote {
-		margin-top: 0.5em;
-		font-size: 1.5em;
 	}
 	#portfolioContent {
 		width: 50%;
@@ -280,9 +279,8 @@ body {
 		margin-top: 6.0%;
 		font-size: 1.5vmin;
 	}
-	#favoriteQuote {
-		margin-top: 0.5em;
-		font-size: 2em;
+	.asdf-content > p {
+		font-size: 1.25em;
 	}
 	#portfolioContent {
 		width: 50%;
@@ -318,10 +316,6 @@ body {
 	#aboutContent {
 		margin-top: 6.0%;
 		font-size: 1.5vmin;
-	}
-	#favoriteQuote {
-		margin-top: 0.5em;
-		font-size: 2em;
 	}
 	#portfolioContent {
 		width: 50%;
